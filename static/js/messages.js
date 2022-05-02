@@ -9,7 +9,7 @@ let wsStart = 'ws://'
 if(loc.protocol === 'https') {
     wsStart = 'wss://'
 }
-let endpoint = wsStart + loc.host + loc.pathname
+let endpoint = wsStart + loc.host + ':6379' + loc.pathname
 
 var socket = new WebSocket(endpoint)
 
