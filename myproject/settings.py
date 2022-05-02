@@ -145,7 +145,7 @@ CHANNEL_LAYERS = {
     'default': {
         # 'BACKEND': 'channels.layers.InMemoryChannelLayer',
         'CONFIG': {
-            'hosts': [('127.0.0.1', 6379)],
+            'hosts': [('3.235.19.51', 6379)],
         }
     }
 }
